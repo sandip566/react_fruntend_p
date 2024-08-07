@@ -1,0 +1,25 @@
+.product{
+    margin-left: 40%;
+}
+.inputBox{
+   
+    display: block;
+    margin: 20px;
+    width:40%;
+    height:35px;
+   
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom-color:skyblue;
+   cursor:pointer; 
+    
+}
+.invalid-input{
+    color:red;
+    margin-top: -21px;
+    margin-left: 20px;
+    display: block;
+
+
+}

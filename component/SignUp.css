@@ -1,0 +1,28 @@
+.all{
+    margin-left: 38%;
+}
+
+.inputBox{
+   
+    display: block;
+    margin: 20px;
+    width:40%;
+    height:35px;
+   
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom-color:skyblue;
+   cursor:pointer; 
+    
+}
+
+.but{
+    margin-left: 0px;
+    height: 40px;
+    width: 13%;
+    border: none;
+    background-color: aqua;
+    border-radius: 10px;
+    cursor:pointer;
+}

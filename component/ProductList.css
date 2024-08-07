@@ -1,0 +1,97 @@
+/* Apply to the main container that holds your content */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent both horizontal and vertical scroll on the body */
+}
+
+/* Container for the product list */
+.product-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns the content at the top */
+    min-height: 100vh; /* Ensures container takes at least full viewport height */
+    padding: 20px;
+    background-color: #f5f5f5;
+    overflow: hidden; /* Hide scrollbars for the entire container */
+}
+
+.product-list {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden; /* Hide scrollbars for the product list */
+}
+
+/* Table styles */
+.product-list table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Fixes the table layout */
+    overflow: hidden; /* Hide scrollbars for the table */
+}
+
+.product-list th, .product-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.product-list th {
+    background-color: #f4f4f4;
+}
+
+.product-list tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Button styles */
+.product-list .edit-button, .product-list .delete-button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+}
+
+.product-list .edit-button {
+    background-color: #4CAF50;
+    margin-right: 5px;
+}
+
+.product-list .edit-button:hover {
+    background-color: #45a049;
+}
+
+.product-list .delete-button {
+    background-color: #f44336;
+}
+
+.product-list .delete-button:hover {
+    background-color: #d32f2f;
+}
+
+.product-list .add-product-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.product-list .add-product-button:hover {
+    background-color: #1976D2;
+}
+
+.error {
+    color: #f44336;
+    text-align: center;
+    margin-bottom: 10px;
+}
